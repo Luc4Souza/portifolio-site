@@ -284,8 +284,8 @@ span{
 }
 .col img{
     max-width: 100%;
-    width: 550px;
-    height: auto;
+    width: 600px;
+    height: 400px;
     object-fit: cover;
     border-radius: 12px;
 }

@@ -11,7 +11,7 @@
     --bg-color: #ffffff;
     --text-color: #000;
     --secound-color: #a09dab;
-    --main-color: #f75023;
+    --main-color: #00BEA4;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
@@ -44,7 +44,7 @@ header.sticky{
 }
 .logo img{
     max-width: 100%;
-    width: 130px;
+    width: 100px;
     height: auto;
 }
 .navlist{
@@ -338,7 +338,7 @@ span{
 /*--contact--*/
 
 .contact{
-    background: #8067f0eb;
+    background: #00BEA4;
     width: 65%;
     margin: 100px auto;
     padding: 70px 150px;
@@ -375,7 +375,7 @@ span{
 }
 .contact .action form input[type="submit"]{
     padding: 12px 40px;
-    background: var(--main-color);
+    background: var(--text-color);
     color: var(--bg-color);
     border: none;
     outline: none;

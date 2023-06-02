@@ -101,7 +101,7 @@ header.sticky{
 /*--home--*/
 
 section{
-    padding: 100px 18%;
+    padding: 75px 18%;
 }
 .home{
     min-height: 100vh;
@@ -195,7 +195,7 @@ span{
     cursor: pointer;
 }
 .sub-box:hover{
-    background: #ffffff;
+    background: var(--main-color);
     box-shadow: 18px 0px 87px 0px rgba(10 15 70 / 7%);
     border-radius: 12px;
     transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.050, 1.05, 1.05);
@@ -272,7 +272,7 @@ span{
 }
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     align-items: center;
     margin-top: 5rem;
@@ -285,8 +285,8 @@ span{
 .col img{
     max-width: 100%;
     width: 600px;
-    height: 400px;
-    object-fit: cover;
+    height: 250px;
+    
     border-radius: 12px;
 }
 .layer{
@@ -331,8 +331,22 @@ span{
     transition: all .40s;
 }
 .layer:hover h5{
-    bottom: 48%;
+    bottom: 40%;
     opacity: 1;
+}
+.ver-todos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bg-color);
+    background: var(--main-color);
+    font-size: var(--p-font);
+    padding: 14px 14px;
+    margin: 15px 40%;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 30px;
+    transition: .40s;
 }
 
 /*--contact--*/
